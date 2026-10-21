@@ -1,0 +1,146 @@
+[
+  {
+    "name": "node-support",
+    "url": "https://raw.githubusercontent.com/nodejs/Release/main/schedule.json",
+    "status": 200,
+    "bytes": 3247,
+    "date": "2026-10-21T13:26:48.940Z"
+  },
+  {
+    "name": "node-security",
+    "url": "https://nodejs.org/en/blog/vulnerability/",
+    "status": 200,
+    "bytes": 831741,
+    "date": "2026-10-21T13:26:49.104Z"
+  },
+  {
+    "name": "fastify-policy",
+    "url": "https://raw.githubusercontent.com/fastify/fastify/main/docs/Reference/LTS.md",
+    "status": 200,
+    "bytes": 4649,
+    "date": "2026-10-21T13:26:49.349Z"
+  },
+  {
+    "name": "ejs-policy",
+    "url": "https://raw.githubusercontent.com/mde/ejs/main/SECURITY.md",
+    "status": 200,
+    "bytes": 2553,
+    "date": "2026-10-21T13:26:49.565Z"
+  },
+  {
+    "name": "sqlite-policy",
+    "url": "https://raw.githubusercontent.com/WiseLibs/better-sqlite3/master/SECURITY.md",
+    "status": 404,
+    "bytes": 14,
+    "date": "2026-10-21T13:26:49.754Z"
+  },
+  {
+    "name": "fastify-fastify-advisories",
+    "url": "https://api.github.com/repos/fastify/fastify/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 117416,
+    "date": "2026-10-21T13:26:50.255Z"
+  },
+  {
+    "name": "fastify-fastify-cookie-advisories",
+    "url": "https://api.github.com/repos/fastify/fastify-cookie/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:50.467Z"
+  },
+  {
+    "name": "mde-ejs-advisories",
+    "url": "https://api.github.com/repos/mde/ejs/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:50.728Z"
+  },
+  {
+    "name": "WiseLibs-better-sqlite3-advisories",
+    "url": "https://api.github.com/repos/WiseLibs/better-sqlite3/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:50.933Z"
+  },
+  {
+    "name": "microsoft-TypeScript-advisories",
+    "url": "https://api.github.com/repos/microsoft/TypeScript/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:51.161Z"
+  },
+  {
+    "name": "microsoft-playwright-advisories",
+    "url": "https://api.github.com/repos/microsoft/playwright/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:51.366Z"
+  },
+  {
+    "name": "dequelabs-axe-core-advisories",
+    "url": "https://api.github.com/repos/dequelabs/axe-core/security-advisories?per_page=100",
+    "status": 200,
+    "bytes": 2,
+    "date": "2026-10-21T13:26:51.585Z"
+  },
+  {
+    "name": "fastify",
+    "url": "https://registry.npmjs.org/fastify/5.12.7",
+    "status": 200,
+    "date": "2026-10-21T13:26:52.027Z"
+  },
+  {
+    "name": "ejs",
+    "url": "https://registry.npmjs.org/ejs/6.0.1",
+    "status": 200,
+    "date": "2026-10-21T13:26:52.282Z"
+  },
+  {
+    "name": "better-sqlite3",
+    "url": "https://registry.npmjs.org/better-sqlite3/13.0.3",
+    "status": 200,
+    "date": "2026-10-21T13:26:52.551Z"
+  },
+  {
+    "name": "@fastify/cookie",
+    "url": "https://registry.npmjs.org/%40fastify%2Fcookie/11.1.3",
+    "status": 200,
+    "date": "2026-10-21T13:26:52.838Z"
+  },
+  {
+    "name": "typescript",
+    "url": "https://registry.npmjs.org/typescript/7.0.2",
+    "status": 200,
+    "date": "2026-10-21T13:26:53.098Z"
+  },
+  {
+    "name": "@types/node",
+    "url": "https://registry.npmjs.org/%40types%2Fnode/24.19.0",
+    "status": 200,
+    "date": "2026-10-21T13:26:53.407Z"
+  },
+  {
+    "name": "@types/ejs",
+    "url": "https://registry.npmjs.org/%40types%2Fejs/3.1.5",
+    "status": 200,
+    "date": "2026-10-21T13:26:53.696Z"
+  },
+  {
+    "name": "@types/better-sqlite3",
+    "url": "https://registry.npmjs.org/%40types%2Fbetter-sqlite3/9.6.0",
+    "status": 200,
+    "date": "2026-10-21T13:26:54.095Z"
+  },
+  {
+    "name": "@playwright/test",
+    "url": "https://registry.npmjs.org/%40playwright%2Ftest/1.64.1",
+    "status": 200,
+    "date": "2026-10-21T13:26:54.383Z"
+  },
+  {
+    "name": "@axe-core/playwright",
+    "url": "https://registry.npmjs.org/%40axe-core%2Fplaywright/4.14.0",
+    "status": 200,
+    "date": "2026-10-21T13:26:54.657Z"
+  }
+]

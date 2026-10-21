@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E21E5EFD71FBA66578E95B62554D9028064A80DAFD7221BF8A8EF155DE8D240A",
+    "Path": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\node_modules\\better-sqlite3\\prebuilds\\win32-x64.node"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "F9ECFBDC93753D2C972D66A8D0D75F5BD737FD4A5F88B422D9091EA282BCB2C7",
+    "Path": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\node_modules\\@typescript\\typescript-win32-x64\\lib\\tsc.exe"
+  }
+]

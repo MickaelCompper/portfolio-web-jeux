@@ -1,0 +1,28 @@
+{
+  "directory": "evidence/browser-data/run-1M22RI",
+  "engines": [
+    {
+      "engine": "edge",
+      "status": "unavailable",
+      "error": "Error: browserType.launch: Chromium distribution 'msedge' is not found at C:\\Users\\micka\\AppData\\Local\\Packages\\sandbox.{3091fa77-2c50-4d74-9b2d-6e372b565e6c}\\AC\\Microsoft\\Edge\\Application\\msedge.exe\nRun \"npx playwright install msedge\""
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4"
+    },
+    {
+      "engine": "firefox",
+      "status": "unavailable",
+      "error": "Error: browserType.launch: Failed to launch the browser process.\nBrowser logs:\n\n<launching> C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tools\\browsers\\firefox-1555\\firefox\\firefox.exe -no-remote -headless -profile C:\\Users\\micka\\AppData\\Local\\Packages\\sandbox.{3091fa77-2c50-4d74-9b2d-6e372b565e6c}\\AC\\Temp\\playwright_firefoxdev_profile-fKpMvZ -juggler-pipe -silent\n<launched> pid=14212\n[pid=14212][err] *** You are running in headless mode.\n[pid=14212][err] JavaScript warning: resource://services-settings/Utils.sys.mjs, line 125: unreachable code after return statement\n[pid=14212][err] JavaScript error: resource:///modules/InstallerPrefs.sys.mjs, line 133: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIWindowsRegKey.create]\n[pid=14212]"
+    }
+  ],
+  "checks": [],
+  "failures": [
+    {
+      "engine": "chromium",
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/\", waiting until \"load\"\u001b[22m\n",
+      "stack": "page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/\", waiting until \"load\"\u001b[22m\n\n    at visit (C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tests\\browser.mjs:18:70)\n    at C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tests\\browser.mjs:20:428"
+    }
+  ],
+  "axeViolations": []
+}

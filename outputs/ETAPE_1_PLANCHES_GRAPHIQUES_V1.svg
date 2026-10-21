@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1100" viewBox="0 0 1400 1100">
+<rect width="1400" height="1100" fill="#e6e8e5"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#202D32">
+<text x="48" y="46" font-size="26" font-weight="600">Portfolio personnel — deux pistes graphiques</text>
+<text x="48" y="78" font-size="17">Étape 1 · Propositions · 21 octobre 2026 · Aucun site ni démonstrateur réalisé</text>
+<rect x="40" y="108" width="650" height="934" rx="10" fill="#F7F5EF"/>
+<rect x="710" y="108" width="650" height="934" rx="10" fill="#FFFFFF"/>
+<text x="76" y="153" font-size="17" fill="#17645F" font-weight="600">A · PAPIER ET ENCRE — RECOMMANDÉE</text>
+<text x="746" y="153" font-size="17" fill="#17645F" font-weight="600">B · GRILLE ET COULEUR — ALTERNATIVE</text>
+<text x="76" y="204" font-size="22" font-weight="600">[Prénom Nom]</text>
+<text x="76" y="234" font-size="17">Conception et développement</text>
+<text x="76" y="258" font-size="17">web &amp; jeux vidéo</text>
+<text x="746" y="204" font-size="22" font-weight="600">[Prénom Nom]</text>
+<text x="746" y="234" font-size="17">Conception et développement</text>
+<text x="746" y="258" font-size="17">web &amp; jeux vidéo</text>
+<g font-family="Georgia, serif" font-size="37">
+<text x="76" y="326">Des sites utiles et des</text><text x="76" y="372">expériences ludiques</text><text x="76" y="418">pour informer, orienter</text><text x="76" y="464">et faire découvrir.</text>
+</g>
+<g font-size="35" font-weight="600">
+<text x="746" y="326">Des sites utiles et des</text><text x="746" y="372">expériences ludiques</text><text x="746" y="418">pour informer, orienter</text><text x="746" y="464">et faire découvrir.</text>
+</g>
+<text x="76" y="510" font-size="18" fill="#526168">Parcours clairs · graphismes simples et soignés</text>
+<text x="746" y="510" font-size="18" fill="#526168">Parcours clairs · graphismes simples et soignés</text>
+<rect x="76" y="538" width="250" height="48" rx="6" fill="#17645F"/>
+<text x="95" y="569" font-size="18" fill="#FFFFFF">Découvrir les projets</text>
+<rect x="746" y="538" width="250" height="48" rx="2" fill="#17645F"/>
+<text x="765" y="569" font-size="18" fill="#FFFFFF">Découvrir les projets</text>
+<text x="76" y="618" font-size="16" fill="#526168">Exemple de traitement d’action ; aucun lien actif.</text>
+<text x="746" y="618" font-size="16" fill="#526168">Exemple de traitement d’action ; aucun lien actif.</text>
+<rect x="76" y="650" width="578" height="160" rx="8" fill="#E3EEEA"/>
+<circle cx="148" cy="715" r="35" fill="#17645F"/>
+<path d="M215 760 L277 675 L339 760 Z" fill="#A4412B"/>
+<rect x="368" y="685" width="230" height="18" fill="#17645F"/>
+<rect x="368" y="721" width="175" height="12" fill="#526168"/>
+<rect x="368" y="749" width="200" height="12" fill="#526168"/>
+<rect x="746" y="650" width="578" height="160" fill="#E3EEEA"/>
+<rect x="770" y="675" width="150" height="110" fill="#17645F"/>
+<rect x="940" y="675" width="110" height="110" fill="#A4412B"/>
+<rect x="1070" y="675" width="230" height="22" fill="#202D32"/>
+<rect x="1070" y="720" width="180" height="12" fill="#526168"/>
+<rect x="1070" y="752" width="210" height="12" fill="#526168"/>
+<text x="76" y="839" font-size="16">Formes abstraites de style · aucune capture produit</text>
+<text x="746" y="839" font-size="16">Formes abstraites de style · aucune capture produit</text>
+<g><rect x="76" y="874" width="82" height="38" fill="#202D32"/><rect x="168" y="874" width="82" height="38" fill="#526168"/><rect x="260" y="874" width="82" height="38" fill="#17645F"/><rect x="352" y="874" width="82" height="38" fill="#A4412B"/>
+<rect x="746" y="874" width="82" height="38" fill="#202D32"/><rect x="838" y="874" width="82" height="38" fill="#526168"/><rect x="930" y="874" width="82" height="38" fill="#17645F"/><rect x="1022" y="874" width="82" height="38" fill="#A4412B"/></g>
+<text x="76" y="949" font-size="18">Georgia + Segoe UI · rythme aéré · fond ivoire</text>
+<text x="746" y="949" font-size="18">Segoe UI · grille affirmée · fond blanc</text>
+<text x="76" y="987" font-size="16" fill="#526168">Palette et typographies proposées, à arbitrer.</text>
+<text x="746" y="987" font-size="16" fill="#526168">Même positionnement, expression plus directe.</text>
+<text x="48" y="1080" font-size="17">Belle-Rive, les six concepts et leur ordre restent ouverts. Planche de direction ; lecture et rendu final à vérifier.</text>
+</g></svg>

@@ -1,0 +1,48 @@
+# Dépendances et outils téléchargés (les manifests et lockfiles restent suivis)
+node_modules/
+.runtime/
+.venv/
+venv/
+/work/belle-rive-lot1/tools/
+
+# Compilation et caches
+dist/
+build/
+.next/
+.nuxt/
+.cache/
+.godot/
+__pycache__/
+*.pyc
+*.tsbuildinfo
+coverage/
+playwright-report/
+test-results/
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+.aws/
+
+# Bases et état d'exécution locaux, y compris les bases générées par les tests
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.db
+*.db-*
+*.running
+*.pid
+
+# Fichiers temporaires de poste
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.swp
+
+# Ne pas ignorer globalement docs/, outputs/, archives/, evidence/ ou reports/ :
+# les conceptions, captures et résultats sélectionnés font partie des preuves.

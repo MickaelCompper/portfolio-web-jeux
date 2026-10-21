@@ -1,0 +1,9 @@
+import {fork,execFileSync} from 'node:child_process';
+import {mkdirSync,mkdtempSync,cpSync,writeFileSync} from 'node:fs';
+import assert from 'node:assert/strict';
+const dir=mkdtempSync('evidence/measures/reprise-');const clean=dir+'/clean';mkdirSync(clean);
+for(const name of ['dist','views','public','node_modules'])cpSync(name,clean+'/'+name,{recursive:true});cpSync('package.json',clean+'/package.json');mkdirSync(clean+'/data');
+const db=clean+'/data/restored.sqlite';execFileSync(process.execPath,['dist/cli.js','copy','evidence/measures/run-YCwyEh/write-9.sqlite',db]);const verify=JSON.parse(execFileSync(process.execPath,['dist/cli.js','verify',db],{encoding:'utf8'}));
+const t=performance.now();const child=fork(process.cwd()+'/'+clean+'/dist/server.js',[process.cwd()+'/'+db],{cwd:process.cwd()+'/'+clean,execPath:process.execPath,stdio:['ignore','pipe','pipe','ipc']});child.stdout.resume();let stderr='';child.stderr.on('data',d=>{stderr+=d;});const report={date:new Date().toISOString(),dir,verify,scope:'Same Windows machine, same portable Node executable; dependencies copied. No independent OS/install qualification.'};
+try{await new Promise((resolve,reject)=>{child.once('message',resolve);child.once('exit',code=>reject(new Error('exit '+code+' '+stderr)));setTimeout(()=>reject(new Error('Observation timeout 60s; budget remains 5s')),60000).unref();});report.startupMs=performance.now()-t;report.budgetMs=5000;report.withinStartup=report.startupMs<=5000;const r=await fetch('http://127.0.0.1:4317/contenu/IP-01');assert.ok((await r.text()).includes('Titre de recette'));report.publicRead=true;const ended=new Promise(resolve=>child.once('exit',resolve));child.send('stop');assert.equal(await ended,0);report.cleanShutdown=true;}catch(e){report.failure=String(e);if(child.connected)child.send('stop');process.exitCode=1;}
+writeFileSync(dir+'/report.json',JSON.stringify(report,null,2));console.log(JSON.stringify(report,null,2));

@@ -1,0 +1,66 @@
+✖ M-01/02/03 : S0–S9 isolés, annulation et frontières exactes (1066.0339ms)
+✔ M-04 : mots entiers, accents, tous mots, surfaces publiques (15.6867ms)
+✔ M-05/06 : sauvegarde, conflit, échec transactionnel, idempotence, reprise (136.6539ms)
+✖ M-07/A-07 : échéances, frontières, dix prolongations pour chaque limite (7.0264ms)
+✔ M-07 : Host/Origin/session/CSRF, corps stricts et absence de fuite (504.7878ms)
+✔ M-04/06 : indisponibilité recherche et saisie conservée en échec (116.8735ms)
+✔ M-07 : cinq échecs de connexion puis temporisation (158.1583ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 5
+ℹ fail 2
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2486.4234
+
+✖ failing tests:
+
+test at tests\core.test.mjs:16:1
+✖ M-01/02/03 : S0–S9 isolés, annulation et frontières exactes (1066.0339ms)
+  AssertionError [ERR_ASSERTION]: The validation function is expected to return "true". Received 'Le lieu doit désigner EQ-01 publié.'
+  
+  Caught error:
+  
+  Error: La publication est bloquée : corrigez les champs indiqués.
+      at TestContext.<anonymous> (file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/tests/core.test.mjs:17:535)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.start (node:internal/test_runner/test:1262:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: Error: La publication est bloquée : corrigez les champs indiqués.
+        at Store.prepare (file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/dist/store.js:118:19)
+        at file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/tests/core.test.mjs:17:548
+        at getActual (node:assert:611:5)
+        at strict.throws (node:assert:759:24)
+        at TestContext.<anonymous> (file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/tests/core.test.mjs:17:535)
+        at Test.runInAsyncScope (node:async_hooks:227:14)
+        at Test.run (node:internal/test_runner/test:1402:25)
+        at Test.start (node:internal/test_runner/test:1262:17)
+        at startSubtestAfterBootstrap (node:internal/test_runner/harness:387:17),
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests\core.test.mjs:24:1
+✖ M-07/A-07 : échéances, frontières, dix prolongations pour chaque limite (7.0264ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    assert.ok(sessions.get(id,true))
+  
+      at TestContext.<anonymous> (file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/tests/core.test.mjs:29:99)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

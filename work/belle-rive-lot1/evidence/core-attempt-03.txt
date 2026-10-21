@@ -1,0 +1,15 @@
+✔ M-01/02/03 : S0–S9 isolés, annulation et frontières exactes (1210.2115ms)
+✔ M-04 : mots entiers, accents, tous mots, surfaces publiques (4.1252ms)
+✔ M-05/06 : sauvegarde, conflit, échec transactionnel, idempotence, reprise (135.9604ms)
+✔ M-07/A-07 : échéances, frontières, dix prolongations pour chaque limite (1.2354ms)
+✔ M-07 : Host/Origin/session/CSRF, corps stricts et absence de fuite (511.5768ms)
+✔ M-04/06 : indisponibilité recherche et saisie conservée en échec (115.5202ms)
+✔ M-07 : cinq échecs de connexion puis temporisation (148.74ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2611.1551

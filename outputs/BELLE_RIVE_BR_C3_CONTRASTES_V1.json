@@ -1,0 +1,41 @@
+{
+  "methode": "Luminance relative sRGB, (Lclair+0.05)/(Lsombre+0.05). Aplats choisis seulement, sans audit produit.",
+  "mesures": [
+    {
+      "paire": "Texte / papier",
+      "texte": "#203B42",
+      "fond": "#F7F4EC",
+      "rapport": 10.82
+    },
+    {
+      "paire": "Liens / papier",
+      "texte": "#174F62",
+      "fond": "#F7F4EC",
+      "rapport": 8.2
+    },
+    {
+      "paire": "Blanc / bleu",
+      "texte": "#FFFFFF",
+      "fond": "#174F62",
+      "rapport": 9.01
+    },
+    {
+      "paire": "Texte / vert clair",
+      "texte": "#203B42",
+      "fond": "#EBEFE5",
+      "rapport": 10.2
+    },
+    {
+      "paire": "Annulation / fond",
+      "texte": "#783B28",
+      "fond": "#F1E3DC",
+      "rapport": 6.83
+    },
+    {
+      "paire": "Exception / fond",
+      "texte": "#665018",
+      "fond": "#F2E9CC",
+      "rapport": 6.35
+    }
+  ]
+}

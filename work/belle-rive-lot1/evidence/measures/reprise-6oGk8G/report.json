@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-21T13:46:38.708Z",
+  "dir": "evidence/measures/reprise-6oGk8G",
+  "verify": {
+    "integrity": [
+      {
+        "integrity_check": "ok"
+      }
+    ],
+    "foreignKeys": [],
+    "scenario": "S0",
+    "public": [
+      {
+        "id": "EQ-01",
+        "rev": 1
+      },
+      {
+        "id": "EV-01",
+        "rev": 1
+      },
+      {
+        "id": "IP-01",
+        "rev": 2
+      },
+      {
+        "id": "IP-02",
+        "rev": 1
+      }
+    ],
+    "operations": [
+      {
+        "id": "9bbb72b7-affc-4900-bfc0-a3ddac50fd16",
+        "hash": "daac617278f1dce33dc01b0377473bf9dc51c044a781d1466a901c98d65708e6",
+        "content": "IP-01",
+        "rev": 2,
+        "published": "2026-10-21T13:42:40.269Z"
+      }
+    ]
+  },
+  "scope": "Same Windows machine, same portable Node executable; dependencies copied. No independent OS/install qualification.",
+  "startupMs": 7239.732499999999,
+  "budgetMs": 5000,
+  "withinStartup": false,
+  "publicRead": true,
+  "cleanShutdown": true
+}

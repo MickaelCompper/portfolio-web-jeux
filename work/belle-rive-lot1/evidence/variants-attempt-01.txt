@@ -1,0 +1,14 @@
+{
+  "dir": "evidence/variants/run-KMl27S",
+  "browser": "156.0.8078.4",
+  "scenarios": 1,
+  "failures": [
+    {
+      "error": "Error: page.addStyleTag: Applying inline style violates the following Content Security Policy directive 'style-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Lqelb6pVzEGnaBEnXqzlEbv6f1ZzI5U8HDqvvij4lg0='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.",
+      "stack": "page.addStyleTag: Applying inline style violates the following Content Security Policy directive 'style-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Lqelb6pVzEGnaBEnXqzlEbv6f1ZzI5U8HDqvvij4lg0='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.\n    at C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tests\\variants.mjs:20:16"
+    }
+  ],
+  "violations": [],
+  "maxPage": 10476,
+  "links": 5
+}

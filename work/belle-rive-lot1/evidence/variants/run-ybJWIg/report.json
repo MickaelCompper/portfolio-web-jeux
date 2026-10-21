@@ -1,0 +1,1469 @@
+{
+  "date": "2026-10-21T13:50:11.406Z",
+  "scenarios": [
+    {
+      "scenario": "S0",
+      "path": "/",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/informations-pratiques",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/IP-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/IP-02",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/agenda",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/EV-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/equipements",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/EQ-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche?q=mediatheque",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche?q=piscine",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S0",
+      "path": "/edition/connexion",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S2",
+      "path": "/contenu/IP-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S4",
+      "path": "/",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S4",
+      "path": "/rubrique/agenda",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S4",
+      "path": "/contenu/EV-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S4",
+      "path": "/contenu/EQ-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S4",
+      "path": "/recherche?q=mediatheque",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S5",
+      "path": "/",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S5",
+      "path": "/rubrique/agenda",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S5",
+      "path": "/rubrique/agenda?passes=1",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S6",
+      "path": "/contenu/EQ-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "S7",
+      "path": "/contenu/IP-01",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "scenario": "search-fault",
+      "path": "/recherche?q=mairie",
+      "status": 503,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "weights": [
+    {
+      "scenario": "S0",
+      "path": "/",
+      "bytes": 10476,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/",
+          "bytes": 3063,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/informations-pratiques",
+      "bytes": 8136,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/informations-pratiques",
+          "bytes": 2273,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/IP-01",
+      "bytes": 10486,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/IP-01",
+          "bytes": 3073,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/IP-02",
+      "bytes": 10367,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/IP-02",
+          "bytes": 2954,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/agenda",
+      "bytes": 7963,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/agenda",
+          "bytes": 2100,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/EV-01",
+      "bytes": 10387,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/EV-01",
+          "bytes": 2974,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/rubrique/equipements",
+      "bytes": 7812,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/equipements",
+          "bytes": 1949,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/contenu/EQ-01",
+      "bytes": 10777,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/EQ-01",
+          "bytes": 3364,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche?q=mediatheque",
+      "bytes": 8157,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/recherche",
+          "bytes": 2294,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche?q=piscine",
+      "bytes": 7750,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/recherche",
+          "bytes": 1887,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/recherche",
+      "bytes": 7739,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/recherche",
+          "bytes": 1876,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S0",
+      "path": "/edition/connexion",
+      "bytes": 8241,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/edition/connexion",
+          "bytes": 2378,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S2",
+      "path": "/contenu/IP-01",
+      "bytes": 10713,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/IP-01",
+          "bytes": 3300,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S4",
+      "path": "/",
+      "bytes": 10615,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/",
+          "bytes": 3202,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S4",
+      "path": "/rubrique/agenda",
+      "bytes": 8102,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/agenda",
+          "bytes": 2239,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S4",
+      "path": "/contenu/EV-01",
+      "bytes": 10565,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/EV-01",
+          "bytes": 3152,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S4",
+      "path": "/contenu/EQ-01",
+      "bytes": 10890,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/EQ-01",
+          "bytes": 3477,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S4",
+      "path": "/recherche?q=mediatheque",
+      "bytes": 8296,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/recherche",
+          "bytes": 2433,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S5",
+      "path": "/",
+      "bytes": 10361,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/",
+          "bytes": 2948,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S5",
+      "path": "/rubrique/agenda",
+      "bytes": 7779,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/agenda",
+          "bytes": 1916,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S5",
+      "path": "/rubrique/agenda?passes=1",
+      "bytes": 8024,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/rubrique/agenda",
+          "bytes": 2161,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S6",
+      "path": "/contenu/EQ-01",
+      "bytes": 10738,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/EQ-01",
+          "bytes": 3325,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "S7",
+      "path": "/contenu/IP-01",
+      "bytes": 10177,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/contenu/IP-01",
+          "bytes": 2764,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    },
+    {
+      "scenario": "search-fault",
+      "path": "/recherche?q=mairie",
+      "bytes": 7776,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/recherche",
+          "bytes": 1913,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/contenu/IP-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/informations-pratiques",
+      "target": "/contenu/IP-02",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/contenu/IP-02",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/contenu/IP-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/IP-02",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda?passes=1",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/agenda",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EV-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/equipements",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/equipements",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/equipements",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/equipements",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/rubrique/equipements",
+      "target": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/contenu/EQ-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=mediatheque",
+      "target": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=piscine",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=piscine",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=piscine",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche?q=piscine",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/recherche",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/edition/connexion",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/edition/connexion",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/edition/connexion",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/edition/connexion",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/contenu/IP-02",
+      "status": 200
+    },
+    {
+      "scenario": "S2",
+      "source": "/contenu/IP-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda?passes=1",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/rubrique/agenda",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EV-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/contenu/EQ-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S4",
+      "source": "/recherche?q=mediatheque",
+      "target": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/",
+      "target": "/rubrique/agenda?passes=1",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda",
+      "target": "/rubrique/agenda?passes=1",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda?passes=1",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda?passes=1",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda?passes=1",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda?passes=1",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S5",
+      "source": "/rubrique/agenda?passes=1",
+      "target": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "scenario": "S6",
+      "source": "/contenu/EQ-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S6",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S6",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S6",
+      "source": "/contenu/EQ-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S6",
+      "source": "/contenu/EQ-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/contenu/IP-02",
+      "status": 200
+    },
+    {
+      "scenario": "S7",
+      "source": "/contenu/IP-01",
+      "target": "/recherche",
+      "status": 200
+    },
+    {
+      "scenario": "search-fault",
+      "source": "/recherche?q=mairie",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "search-fault",
+      "source": "/recherche?q=mairie",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "search-fault",
+      "source": "/recherche?q=mairie",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "search-fault",
+      "source": "/recherche?q=mairie",
+      "target": "/rubrique/equipements",
+      "status": 200
+    }
+  ],
+  "failures": [],
+  "browser": "156.0.8078.4"
+}

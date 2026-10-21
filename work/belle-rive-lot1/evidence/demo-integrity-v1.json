@@ -1,0 +1,28 @@
+{
+  "integrity": [
+    {
+      "integrity_check": "ok"
+    }
+  ],
+  "foreignKeys": [],
+  "scenario": "S0",
+  "public": [
+    {
+      "id": "EQ-01",
+      "rev": 1
+    },
+    {
+      "id": "EV-01",
+      "rev": 1
+    },
+    {
+      "id": "IP-01",
+      "rev": 1
+    },
+    {
+      "id": "IP-02",
+      "rev": 1
+    }
+  ],
+  "operations": []
+}

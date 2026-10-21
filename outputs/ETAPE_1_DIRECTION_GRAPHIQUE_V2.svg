@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1660" viewBox="0 0 1600 1660">
+<defs>
+ <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#faf8f1"/><stop offset="1" stop-color="#eeeee3"/></linearGradient>
+ <linearGradient id="green" x2="1" y2="1"><stop stop-color="#246f66"/><stop offset="1" stop-color="#133e3d"/></linearGradient>
+ <linearGradient id="soil" x2="0" y2="1"><stop stop-color="#d5ab7d"/><stop offset="1" stop-color="#bd855e"/></linearGradient>
+ <pattern id="dots" width="14" height="14" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#202d32" opacity=".11"/></pattern>
+ <pattern id="lines" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V10" stroke="#527e73" stroke-width="1" opacity=".2"/></pattern>
+ <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.7"><feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#233b34" flood-opacity=".15"/></filter>
+ <g id="tree">
+  <ellipse cx="0" cy="8" rx="23" ry="8" fill="#234b41" opacity=".13"/>
+  <path d="M0 9V-68" stroke="#906e4f" stroke-width="5"/>
+  <path d="M0-25L-14-43M0-40L12-54" stroke="#906e4f" stroke-width="3"/>
+  <ellipse cx="0" cy="-64" rx="25" ry="34" fill="#3c7b65"/>
+  <ellipse cx="-7" cy="-69" rx="17" ry="27" fill="#6a9a78"/>
+  <path d="M0-47V-85M0-63L-11-72M0-57L10-68" stroke="#c5d3a5" stroke-width="1.2" fill="none" opacity=".7"/>
+ </g>
+ <g id="scene">
+  <!-- Original editorial illustration, without a project or functional claim. -->
+  <ellipse cx="320" cy="422" rx="262" ry="54" fill="#203f37" opacity=".09"/>
+  <g filter="url(#shadow)">
+   <path d="M52 292L339 153L608 292L325 445Z" fill="#bfbda7"/>
+   <path d="M52 292L325 435L608 292V316L325 469L52 316Z" fill="#b4b39c"/>
+   <path d="M52 292L325 435V460L52 316Z" fill="#ceccb5"/>
+   <path d="M52 269L339 130L608 269L325 422Z" fill="#e0c495"/>
+   <path d="M52 269L325 412L608 269V284L325 437L52 284Z" fill="url(#soil)"/>
+   <path d="M52 242L339 103L608 242L325 395Z" fill="#b7c6a0"/>
+   <path d="M52 242L325 385L608 242V258L325 411L52 258Z" fill="#8ea881"/>
+   <path d="M52 242L339 103L608 242L325 395Z" fill="url(#lines)"/>
+   <path d="M108 226C193 247 204 291 288 292S371 211 462 205L506 228C400 229 399 321 300 322S177 276 75 260Z" fill="#edf0d5"/>
+   <path d="M109 226C192 248 208 292 288 292S371 211 462 205" fill="none" stroke="#ffffff" stroke-width="2" opacity=".55"/>
+   <path d="M235 153L338 103L439 155L336 209Z" fill="#cbd5b2"/>
+   <path d="M235 153L336 209V230L235 174Z" fill="#7d9b75"/>
+   <path d="M336 209L439 155V176L336 230Z" fill="#63876b"/>
+   <path d="M251 151L339 109L424 154L336 199Z" fill="#d6ddb9"/>
+   <path d="M331 124L355 137L309 161L286 148Z" fill="#eef0d7"/>
+   <path d="M359 141L382 154L336 178L313 165Z" fill="#eef0d7"/>
+   <use href="#tree" transform="translate(174 211) scale(.86)"/>
+   <use href="#tree" transform="translate(220 190) scale(1.05)"/>
+   <use href="#tree" transform="translate(469 258) scale(.88)"/>
+   <use href="#tree" transform="translate(514 279) scale(.66)"/>
+   <use href="#tree" transform="translate(374 332) scale(.74)"/>
+   <g transform="translate(275 264)"><path d="M-19 0L0-10L21 0L1 12Z" fill="#183e3b"/><path d="M-19 0V9L1 22L21 9V0L1 12Z" fill="#36675b"/><circle cx="0" cy="-18" r="7" fill="#b15d42"/><path d="M0-12V0" stroke="#a4412b" stroke-width="8"/></g>
+   <path d="M128 290L167 311M135 280L175 301M142 270L182 291" stroke="#dce0bd" stroke-width="2"/>
+  </g>
+  <g fill="none" stroke="#52766c" stroke-width="1" opacity=".6">
+   <path d="M94 195L56 173H3"/><path d="M452 181L526 143H610"/>
+   <path d="M520 343L570 368H620"/>
+   <circle cx="94" cy="195" r="4" fill="#f7f5ef"/><circle cx="452" cy="181" r="4" fill="#f7f5ef"/><circle cx="520" cy="343" r="4" fill="#f7f5ef"/>
+  </g>
+ </g>
+</defs>
+<rect width="1600" height="1660" fill="#dfE3dc"/>
+<g font-family="Segoe UI, Arial, sans-serif" fill="#202d32">
+ <text x="58" y="48" font-size="16" letter-spacing="2">PORTFOLIO PERSONNEL / RECHERCHE GRAPHIQUE 02</text>
+ <text x="1540" y="48" font-size="15" text-anchor="end">PROPOSITION · 21 OCTOBRE 2026</text>
+ <rect x="40" y="80" width="1520" height="965" rx="4" fill="url(#paper)"/>
+ <rect x="40" y="80" width="1520" height="965" rx="4" fill="url(#dots)" opacity=".32"/>
+ <text x="102" y="143" font-size="23" font-weight="600">[Prénom Nom]</text>
+ <text x="102" y="171" font-size="14" fill="#526168">Conception et développement web &amp; jeux vidéo</text>
+ <g font-size="16"><text x="1050" y="150">Projets</text><text x="1155" y="150">Approche</text><text x="1290" y="150">À propos</text><text x="1450" y="150" text-anchor="end">Contact</text></g>
+ <path d="M102 202H1498" stroke="#c5cec5"/>
+ <text x="104" y="271" font-size="13" letter-spacing="2.2" fill="#17645f">CONCEPTION NUMÉRIQUE · INFORMATION &amp; MÉDIATION</text>
+ <g font-family="Georgia, serif" font-size="67" letter-spacing="-2">
+  <text x="100" y="359">Des sites utiles et des</text>
+  <text x="100" y="439">expériences ludiques</text>
+  <text x="100" y="519">pour informer, orienter</text>
+  <text x="100" y="599" fill="#17645f" font-style="italic">et faire découvrir.</text>
+ </g>
+ <path d="M103 627C238 615 384 618 519 625" fill="none" stroke="#b15d42" stroke-width="2.5"/>
+ <text x="104" y="685" font-size="21" fill="#526168">Des parcours clairs. Des graphismes simples et soignés.</text>
+ <text x="104" y="719" font-size="21" fill="#526168">Un travail dont les choix et les limites restent lisibles.</text>
+ <rect x="104" y="760" width="269" height="57" rx="4" fill="#17645f"/>
+ <text x="126" y="796" font-size="17" fill="#fff">Découvrir les projets</text>
+ <path d="M333 781L342 789L333 797M323 789H341" fill="none" stroke="#fff" stroke-width="1.6"/>
+ <text x="405" y="795" font-size="17">Comprendre mon approche</text>
+ <path d="M405 805H614" stroke="#202d32" stroke-width=".8"/>
+ <g transform="translate(850 292) scale(.97)"><use href="#scene"/></g>
+ <text x="888" y="793" font-size="13" letter-spacing="1.7" fill="#17645f">01 / COMPOSITION, MATIÈRES, PROFONDEUR</text>
+ <text x="888" y="820" font-size="15" fill="#526168">Étude d’illustration originale, sans projet associé.</text>
+ <path d="M104 872H1498" stroke="#c5cec5"/>
+ <g font-size="14" letter-spacing="1.4" fill="#526168"><text x="104" y="916">LA CLARTÉ DU PARCOURS</text><text x="578" y="916">LE SOIN DE L’INTERACTION</text><text x="1050" y="916">LA QUALITÉ EXAMINABLE</text></g>
+ <g font-family="Georgia, serif" font-size="25"><text x="104" y="959">Comprendre avant d’agir.</text><text x="578" y="959">Donner du sens aux détails.</text><text x="1050" y="959">Montrer, expliquer, documenter.</text></g>
+ <text x="104" y="1010" font-size="13" fill="#526168">Composition d’intention pour l’accueil · textes complémentaires proposés · éléments de navigation non actifs</text>
+ <!-- Detail boards -->
+ <rect x="40" y="1073" width="484" height="435" fill="#f7f5ef"/>
+ <rect x="538" y="1073" width="484" height="435" fill="url(#green)"/>
+ <rect x="1036" y="1073" width="524" height="435" fill="#f7f5ef"/>
+ <text x="72" y="1114" font-size="13" letter-spacing="1.5" fill="#526168">02 / TYPOGRAPHIE &amp; RYTHME</text>
+ <text x="70" y="1201" font-family="Georgia, serif" font-size="77" letter-spacing="-3">Aa &amp; 012</text>
+ <text x="72" y="1243" font-size="15" fill="#526168">Georgia · titres et moments éditoriaux</text>
+ <path d="M72 1270H492" stroke="#c5cec5"/>
+ <text x="72" y="1314" font-size="23" font-weight="600">La précision sans la froideur.</text>
+ <text x="72" y="1347" font-size="17">Segoe UI · lecture, actions et légendes.</text>
+ <g><rect x="72" y="1382" width="77" height="44" fill="#202d32"/><rect x="157" y="1382" width="77" height="44" fill="#17645f"/><rect x="242" y="1382" width="77" height="44" fill="#a4412b"/><rect x="327" y="1382" width="77" height="44" fill="#e3eeea"/><rect x="412" y="1382" width="77" height="44" fill="#dfc89d"/></g>
+ <text x="72" y="1469" font-size="15" fill="#526168">Ivoire · encre · vert profond · accents terre</text>
+ <g fill="#f7f5ef">
+  <text x="574" y="1114" font-size="13" letter-spacing="1.5">03 / L’ÉTUDE DE CAS</text>
+  <text x="574" y="1180" font-size="19">01</text><text x="625" y="1180" font-family="Georgia, serif" font-size="34">Voir</text>
+  <text x="625" y="1211" font-size="16" fill="#d6e3d8">Le besoin, le parcours, les choix.</text>
+  <path d="M574 1235H984" stroke="#73938a"/>
+  <text x="574" y="1281" font-size="19">02</text><text x="625" y="1281" font-family="Georgia, serif" font-size="34">Essayer</text>
+  <text x="625" y="1312" font-size="16" fill="#d6e3d8">L’expérience et ses conditions.</text>
+  <path d="M574 1336H984" stroke="#73938a"/>
+  <text x="574" y="1382" font-size="19">03</text><text x="625" y="1382" font-family="Georgia, serif" font-size="34">Examiner</text>
+  <text x="625" y="1413" font-size="16" fill="#d6e3d8">Les preuves et leurs limites.</text>
+  <text x="574" y="1471" font-size="14" fill="#d6e3d8">Trois lectures du même travail.</text>
+ </g>
+ <text x="1072" y="1114" font-size="13" letter-spacing="1.5" fill="#526168">04 / UN DÉTAIL QUI EXPLIQUE</text>
+ <g transform="translate(1102 1125) scale(.56)"><use href="#scene"/></g>
+ <path d="M1072 1406H1524" stroke="#c5cec5"/>
+ <text x="1072" y="1442" font-size="16">Des couches, des repères et un point d’attention.</text>
+ <text x="1072" y="1470" font-size="14" fill="#526168">Un vocabulaire illustratif, pas un univers de jeu retenu.</text>
+ <text x="58" y="1552" font-size="18" font-weight="600">Une simplicité construite : proportions, hiérarchie, matière et détails.</text>
+ <text x="58" y="1585" font-size="15" fill="#526168">Planche V2 à arbitrer · aucune interface fonctionnelle · aucune capture de produit · aucun test d’usage exécuté</text>
+ <text x="58" y="1616" font-size="15" fill="#526168">Belle-Rive, les six concepts et leur ordre restent ouverts. La V1 est conservée.</text>
+</g></svg>

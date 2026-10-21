@@ -1,0 +1,1 @@
+Base initialisée explicitement : data/demo.sqlite

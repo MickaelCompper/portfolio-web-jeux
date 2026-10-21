@@ -1,0 +1,9 @@
+{
+  "dir": "evidence/variants/run-VmstOu",
+  "browser": "156.0.8078.4",
+  "scenarios": 24,
+  "failures": [],
+  "violations": [],
+  "maxPage": 10890,
+  "links": 129
+}

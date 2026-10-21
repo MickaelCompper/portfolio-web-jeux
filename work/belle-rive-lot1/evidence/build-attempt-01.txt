@@ -1,0 +1,2 @@
+src/app.ts(38,84): error TS18046: 'err' is of type 'unknown'.
+src/app.ts(38,109): error TS18046: 'err' is of type 'unknown'.

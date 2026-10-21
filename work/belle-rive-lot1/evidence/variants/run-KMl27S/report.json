@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-21T13:44:40.763Z",
+  "scenarios": [
+    {
+      "scenario": "S0",
+      "path": "/",
+      "status": 200,
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "weights": [
+    {
+      "scenario": "S0",
+      "path": "/",
+      "bytes": 10476,
+      "budget": 768000,
+      "within": true,
+      "resources": [
+        {
+          "path": "/",
+          "bytes": 3063,
+          "remote": false
+        },
+        {
+          "path": "/style.css",
+          "bytes": 5863,
+          "remote": false
+        },
+        {
+          "path": "/rive.svg",
+          "bytes": 1550,
+          "remote": false
+        }
+      ]
+    }
+  ],
+  "links": [
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/informations-pratiques",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/agenda",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/rubrique/equipements",
+      "status": 200
+    },
+    {
+      "scenario": "S0",
+      "source": "/",
+      "target": "/contenu/EV-01",
+      "status": 200
+    }
+  ],
+  "failures": [
+    {
+      "error": "Error: page.addStyleTag: Applying inline style violates the following Content Security Policy directive 'style-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Lqelb6pVzEGnaBEnXqzlEbv6f1ZzI5U8HDqvvij4lg0='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.",
+      "stack": "page.addStyleTag: Applying inline style violates the following Content Security Policy directive 'style-src 'self''. Either the 'unsafe-inline' keyword, a hash ('sha256-Lqelb6pVzEGnaBEnXqzlEbv6f1ZzI5U8HDqvvij4lg0='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked.\n    at C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tests\\variants.mjs:20:16"
+    }
+  ],
+  "browser": "156.0.8078.4"
+}

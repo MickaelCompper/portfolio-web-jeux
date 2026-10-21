@@ -1,0 +1,78 @@
+{
+  "directory": "evidence/browser-data/run-2b2NV6",
+  "engines": [
+    {
+      "engine": "edge",
+      "status": "unavailable",
+      "error": "Error: browserType.launch: Chromium distribution 'msedge' is not found at C:\\Users\\micka\\AppData\\Local\\Microsoft\\Edge\\Application\\msedge.exe\nRun \"npx playwright install msedge\""
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4"
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0"
+    }
+  ],
+  "checks": [
+    {
+      "engine": "chromium",
+      "publicRoutes": true,
+      "widths": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "keyboardSkip": true,
+      "save": true,
+      "validation": true,
+      "lostSocket": true,
+      "resultRecovery": true,
+      "sessionWarning": true,
+      "extendPreservesInput": true,
+      "logout": true,
+      "pageErrors": []
+    }
+  ],
+  "failures": [
+    {
+      "engine": "firefox",
+      "error": "TimeoutError: page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#errors') to be visible\u001b[22m\n",
+      "stack": "page.waitForSelector: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('#errors') to be visible\u001b[22m\n\n    at C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\tests\\browser.mjs:24:423",
+      "url": "http://127.0.0.1:4317/edition/contenu/IP-01/preparer",
+      "text": "\nÉchéance serveur : 21/10/2026 16:34:00 (Paris). L’activité ordinaire ne repousse pas l’échéance de quatre heures.Prolonger la sessionDéconnexionÉdition et opérations\nAccueil / Confirmer la publicationConfirmer la publication\n\n\n\n\n\n\n\nVous allez remplacer la version publique r2 de Venir à l’accueil de la mairie. La version précédente restera conservée.Résumé à vérifierTitreVenir à l’accueil de la mairieRésuméRetrouvez les horaires et les indications d’accès à l’accueil de la mairie fictive de Belle-Rive.Corps du contenuPréparer un déplacement pour demander une orientation à l’accueil.Termes éditoriauxhoraires, mairie, accueil, visiteDate éditoriale fictive (AAAA-MM-JJ)2026-11-09Adresse fictivePlace de la Mairie — Belle-Rive, adresse fictive.EntréeEntrée côté place.Horaires ordinaires (un jour par ligne : Jour | plage ; plage)Lundi | 09:00-12:00\nMardi | 09:00-12:00\nMercredi | 09:00-12:00 ; 14:00-17:00\nJeudi | 09:00-12:00\nVendredi | 09:00-12:00\nSamedi | Fermé\nDimanche | FerméDate de l’exception (AAAA-MM-JJ)2026-11-18Période affectée (HH:MM-HH:MM)14:00-17:00Effet et texte utile de l’exceptionAccueil fermé de 14 h à 17 h ; ouverture maintenue de 9 h à 12 h.Opération : 95774b2c-192e-4448-8392-31909137ea16Publier cette révisionPublication à vérifierLa confirmation n’a pas été reçue. La publication a peut-être été enregistrée. Vérifiez le résultat avant de recommencer.Vérifier le résultatVérifier le résultat de cette opérationRevenir au brouillon\n\n\n"
+    }
+  ],
+  "axeViolations": [
+    {
+      "engine": "chromium",
+      "name": "erreur-S9",
+      "violations": [
+        {
+          "id": "region",
+          "nodes": [
+            [
+              ".ribbon"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "engine": "chromium",
+      "name": "confirmation",
+      "violations": [
+        {
+          "id": "region",
+          "nodes": [
+            [
+              ".ribbon"
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}
