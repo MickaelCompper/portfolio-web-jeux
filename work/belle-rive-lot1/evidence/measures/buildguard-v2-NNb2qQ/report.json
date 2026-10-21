@@ -1,0 +1,9 @@
+{
+  "date": "2026-10-21T14:13:47.841Z",
+  "scope": "isolated copy only; deliberate TypeScript error; no server launched",
+  "exit": 1,
+  "stdout": "src/runtime.ts(7,7): error TS2322: Type 'number' is not assignable to type 'string'.\n",
+  "stderr": "",
+  "staleBundlesRemoved": true,
+  "staleManifestRemoved": true
+}

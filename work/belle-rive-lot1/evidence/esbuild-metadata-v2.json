@@ -1,0 +1,30 @@
+{
+  "version": "0.28.2",
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT",
+  "dist": {
+    "shasum": "0f43bd1bad955b72d24e2261e3abe5957ccf0816",
+    "tarball": "https://registry.npmjs.org/esbuild/-/esbuild-0.28.2.tgz",
+    "fileCount": 7,
+    "integrity": "sha512-HKVLS8dvII+xoKW9kmqxbRKrnWEXfJJr/FZhhJmiqIB0e053QNYFqOBouTMO/k5sID4MvCiUCvv8b9M4h32wIA==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCUNxdzUXI/rpHaMMcf/skpuDBkNL7aLEXFFc0dex0NCAIhAMDKoRFFyK2uR0qEIAoCe4pdRrJ3ld2ZCoHNyNuX6ju7",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQC8VkNobVdJrr03U9huHI7n2VhWQ2shvrTvNYB1Mx8gigIgFkrOTUauuovxR8qg94n81hYvSw6PI2qEQkNiqHkmjcg="
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/esbuild@0.28.2",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 147361
+  }
+}

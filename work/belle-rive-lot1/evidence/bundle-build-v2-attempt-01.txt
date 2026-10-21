@@ -1,0 +1,1 @@
+Compilation stricte et assemblage local terminés.

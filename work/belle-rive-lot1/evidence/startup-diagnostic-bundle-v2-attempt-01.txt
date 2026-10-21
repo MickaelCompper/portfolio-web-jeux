@@ -1,0 +1,39 @@
+{
+  "dir": "evidence/measures/diagnostic-bundle-v2-Yi9qeE",
+  "samples": [
+    {
+      "mode": "bundle",
+      "startupMs": 845.3198000000002,
+      "withinBudget": true,
+      "loads": 54,
+      "loadSum": 452.18399999999974,
+      "slowLoads": [
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/dist/server.bundle.js",
+          "ms": 387.8614
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/node_modules/better-sqlite3/lib/methods/explain.js",
+          "ms": 28.599699999999984
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/node_modules/better-sqlite3/lib/methods/pragma.js",
+          "ms": 3.768799999999942
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/node_modules/better-sqlite3/lib/util.js",
+          "ms": 3.7362999999999715
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/node_modules/better-sqlite3/lib/database.js",
+          "ms": 2.9227000000000203
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-bundle-v2-Yi9qeE/bundle/node_modules/better-sqlite3/lib/sqlite-error.js",
+          "ms": 2.755399999999952
+        }
+      ],
+      "resolveSum": 18.65800000000023
+    }
+  ]
+}

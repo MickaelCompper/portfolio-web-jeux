@@ -1,0 +1,12 @@
+{
+  "beforeMeasure": true,
+  "version": "baseline 0.1.0 / commit 054cde4",
+  "cases": [
+    "original entry + loader hooks",
+    "stage entry + loader hooks"
+  ],
+  "observationTimeoutMs": 60000,
+  "budgetMs": 5000,
+  "dependencies": "unchanged package-lock",
+  "copies": "fresh directories; full node_modules; no baseline excluded"
+}

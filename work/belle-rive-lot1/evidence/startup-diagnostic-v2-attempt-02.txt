@@ -1,0 +1,95 @@
+{
+  "dir": "evidence/measures/diagnostic-v2-tYbNp0",
+  "samples": [
+    {
+      "mode": "original",
+      "startupMs": 7769.147199999999,
+      "withinBudget": false,
+      "loads": 311,
+      "loadSum": 6682.740300000007,
+      "slowLoads": [
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/fastify/lib/hooks.js",
+          "ms": 63.89690000000019
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/ajv/dist/compile/validate/index.js",
+          "ms": 63.245600000000195
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/find-my-way/index.js",
+          "ms": 63.10199999999986
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/fast-json-stringify/index.js",
+          "ms": 62.33860000000004
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/ret/dist/write-set-tokens.js",
+          "ms": 58.9978000000001
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/original/node_modules/ejs/lib/esm/ejs.js",
+          "ms": 58.63440000000003
+        }
+      ],
+      "resolveSum": 663.3703000000119
+    },
+    {
+      "mode": "stages",
+      "startupMs": 3410.5252,
+      "withinBudget": true,
+      "stages": [
+        {
+          "name": "app imports",
+          "ms": 1669.9842999999998
+        },
+        {
+          "name": "store import (cached by app)",
+          "ms": 1670.2672
+        },
+        {
+          "name": "SQLite open and pragmas",
+          "ms": 1765.6463999999999
+        },
+        {
+          "name": "app construction",
+          "ms": 3222.0404000000003
+        },
+        {
+          "name": "listen confirmed",
+          "ms": 3292.1031000000003
+        }
+      ],
+      "loads": 311,
+      "loadSum": 2737.784399999999,
+      "slowLoads": [
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/fastify/fastify.js",
+          "ms": 64.69460000000001
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/fastify/lib/request.js",
+          "ms": 58.263900000000035
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/fast-json-stringify/index.js",
+          "ms": 57.04959999999983
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/ejs/lib/esm/ejs.js",
+          "ms": 56.665400000000034
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/ajv/dist/core.js",
+          "ms": 56.652900000000045
+        },
+        {
+          "url": "file:///C:/Users/micka/Documents/ChatGPT/portfolio/work/belle-rive-lot1/evidence/measures/diagnostic-v2-tYbNp0/stages/node_modules/ajv/dist/vocabularies/format/format.js",
+          "ms": 56.00720000000001
+        }
+      ],
+      "resolveSum": 256.62819999999545
+    }
+  ]
+}

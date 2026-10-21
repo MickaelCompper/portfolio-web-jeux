@@ -1,6 +1,6 @@
 # Belle-Rive — lancement local du lot 1
 
-Version 0.1.0, 21 octobre 2026. Démonstrateur personnel fictif, sans service municipal réel. Sources, données et recette dans ce sous-dossier ; conception originale conservée dans `../../docs` et `../../outputs`.
+Version 0.1.1, 21 octobre 2026. Démonstrateur personnel fictif, sans service municipal réel. Sources, données et recette dans ce sous-dossier ; conception originale conservée dans `../../docs` et `../../outputs`. [Notice V1 conservée](NOTICE_LOT1_V1.md).
 
 ## Ouvrir la version préparée
 
@@ -11,7 +11,7 @@ Set-Location 'C:\Users\micka\Documents\ChatGPT\portfolio\work\belle-rive-lot1'
 ./Start.ps1
 ```
 
-Le script compile avec le compilateur local puis lance seulement si la compilation réussit. La base `data/demo.sqlite`, initialisée explicitement en S0, est prête. Une base absente, une version inconnue, un verrou de lancement existant ou le port occupé provoquent un refus ; aucun autre port ni hôte n’est choisi. Aucun téléchargement n’est nécessaire pour utiliser l’installation présente.
+Le script compile en TypeScript strict puis assemble les dépendances JavaScript avec esbuild local. Il lance `dist/server.bundle.js` seulement après succès des deux étapes ; un échec retire les anciens bundles exécutables. Le pilote SQLite natif reste séparé et inchangé. La base `data/demo.sqlite`, initialisée explicitement en S0, est prête. Une base absente, une version inconnue, un verrou de lancement existant ou le port occupé provoquent un refus ; aucun autre port ni hôte n’est choisi. Aucun téléchargement n’est nécessaire pour utiliser l’installation présente.
 
 Ouvrir [Belle-Rive local](http://127.0.0.1:4317). L’adresse fonctionne uniquement quand le serveur est lancé sur cette machine. L’édition est accessible depuis le pied de page. Son secret change à chaque lancement et est affiché uniquement dans le terminal du lanceur : le coller dans le formulaire de connexion. Ne pas copier ce terminal dans un rapport ou une capture. Aucun compte usager, aucune donnée réelle ni publication réseau.
 
@@ -26,8 +26,8 @@ Dans le terminal du lanceur, Ctrl+C appelle l’arrêt propre. Attendre « Arrê
 Copie après arrêt, vers une destination neuve :
 
 ```powershell
-& ./tools/node-v24.22.1-win-x64/node.exe dist/cli.js copy data/demo.sqlite data/copie-01.sqlite
-& ./tools/node-v24.22.1-win-x64/node.exe dist/cli.js verify data/copie-01.sqlite
+& ./tools/node-v24.22.1-win-x64/node.exe dist/cli.bundle.js copy data/demo.sqlite data/copie-01.sqlite
+& ./tools/node-v24.22.1-win-x64/node.exe dist/cli.bundle.js verify data/copie-01.sqlite
 ./Start.ps1 -Database data/copie-01.sqlite
 ```
 
@@ -52,4 +52,4 @@ Le HTTP local utilise un cookie HttpOnly/SameSite=Strict, non Secure, limité à
 
 Node portable 24.22.1 et les dépendances sont conservés dans le projet, sans remplacement global. Les sources et dépendances directes sont identifiées par `package.json`/`package-lock.json`. Le graphe téléchargé a été contrôlé, mais aucun audit de sécurité exhaustif ou engagement de maintenance n’est revendiqué. Autre machine, Edge stable, Firefox stable utilisateur, NVDA, téléphone physique, zoom navigateur 200 % et session humaine ne sont pas validés.
 
-Les séries de performance et la reprise locale sont détaillées dans le rapport ; l’essai de reprise initial interrompu n’est pas effacé par un essai suivant.
+Le correctif 0.1.1 assemble les dépendances JavaScript pour réduire les chargements de petits fichiers dans une copie neuve. Trois reprises ont mesuré 0,684 / 0,725 / 0,719 s, sous le budget inchangé de 5 s. Les échecs V1 (7,24 s et essai interrompu) restent conservés. Voir le [bilan de correction V2](../../docs/BELLE_RIVE_REPRISE_CORRECTION_V2.md) pour le diagnostic, le protocole et les limites. Compilation et assemblage précèdent le chronométrage du lancement, selon le protocole accepté.

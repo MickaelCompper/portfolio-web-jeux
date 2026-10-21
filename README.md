@@ -1,5 +1,9 @@
 # Portfolio Web & Jeux vidéo
 
+## Belle-Rive — correctif local 0.1.1
+
+Le [bilan de correction V2](docs/BELLE_RIVE_REPRISE_CORRECTION_V2.md) documente le diagnostic et l’assemblage local du serveur. Trois reprises neuves mesurées à 0,684 / 0,725 / 0,719 s, sous le budget inchangé de 5 s ; contrôles concernés rejoués et preuves V1 conservées. [Notice active](work/belle-rive-lot1/NOTICE.md). Aucun déploiement ni acceptation utilisateur déduits. Le paragraphe suivant décrit le lot initial 0.1.0.
+
 ## Belle-Rive — premier lot local réalisé
 
 Le 21 octobre 2026, une instruction distincte a autorisé le premier lot de réalisation et sa recette locale. Version 0.1.0 examinable dans [work/belle-rive-lot1](work/belle-rive-lot1/NOTICE.md) ; [bilan mesuré V1 et limites](docs/BELLE_RIVE_LOT1_BILAN_V1.md). Aucune publication ni acceptation utilisateur déduite. Un démarrage de reprise dépasse le budget de 5 s ; humain, assistance et plusieurs environnements restent non évalués. Les paragraphes historiques ci-dessous sont conservés.

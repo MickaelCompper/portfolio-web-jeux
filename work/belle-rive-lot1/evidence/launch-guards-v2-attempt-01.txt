@@ -1,0 +1,49 @@
+{
+  "dir": "evidence/measures/launch-guards-v2-nQCAKG",
+  "checks": [
+    {
+      "name": "missing database",
+      "code": 1,
+      "ready": false,
+      "sentinelRetained": false
+    },
+    {
+      "name": "unknown storage version",
+      "code": 1,
+      "ready": false,
+      "sentinelRetained": false
+    },
+    {
+      "name": "preexisting launch marker",
+      "code": 1,
+      "ready": false,
+      "sentinelRetained": true
+    },
+    {
+      "name": "port occupied; no fallback",
+      "code": 1,
+      "ready": false,
+      "sentinelRetained": false
+    },
+    {
+      "name": "private artifact /dist/server.bundle.js",
+      "status": 404
+    },
+    {
+      "name": "private artifact /dist/runtime.bundle.js",
+      "status": 404
+    },
+    {
+      "name": "private artifact /dist/server.bundle.js.map",
+      "status": 404
+    },
+    {
+      "name": "private artifact /build.mjs",
+      "status": 404
+    },
+    {
+      "name": "private artifact /package-lock.json",
+      "status": 404
+    }
+  ]
+}

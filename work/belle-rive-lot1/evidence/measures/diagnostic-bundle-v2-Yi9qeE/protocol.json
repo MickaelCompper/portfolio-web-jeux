@@ -1,0 +1,12 @@
+{
+  "beforeMeasure": true,
+  "version": "candidate 0.1.1 / same dependency graph, assembled JavaScript",
+  "cases": [
+    "original entry + loader hooks",
+    "stage entry + loader hooks"
+  ],
+  "observationTimeoutMs": 60000,
+  "budgetMs": 5000,
+  "dependencies": "unchanged package-lock",
+  "copies": "fresh directories; full node_modules; no baseline excluded"
+}

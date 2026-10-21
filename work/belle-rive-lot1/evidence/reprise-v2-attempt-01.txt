@@ -1,0 +1,102 @@
+{
+  "dir": "evidence/measures/reprise-v2-q61tdC",
+  "correctedWithinBudget": true,
+  "samples": [
+    {
+      "trial": 1,
+      "mode": "original",
+      "startupMs": 4956.7346,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 26.176800000001094,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 1,
+      "mode": "bundle",
+      "startupMs": 683.7770999999993,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 23.820599999999104,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 2,
+      "mode": "original",
+      "startupMs": 3354.054899999999,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 29.049399999999878,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 2,
+      "mode": "bundle",
+      "startupMs": 725.1261999999988,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 20.390699999999924,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 3,
+      "mode": "original",
+      "startupMs": 3295.3606,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 27.98460000000341,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 3,
+      "mode": "bundle",
+      "startupMs": 718.5449000000008,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 21.28770000000077,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    }
+  ]
+}
