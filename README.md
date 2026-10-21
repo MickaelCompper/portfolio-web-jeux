@@ -1,5 +1,9 @@
 # Portfolio Web & Jeux vidéo
 
+## Belle-Rive — premier lot local réalisé
+
+Le 21 octobre 2026, une instruction distincte a autorisé le premier lot de réalisation et sa recette locale. Version 0.1.0 examinable dans [work/belle-rive-lot1](work/belle-rive-lot1/NOTICE.md) ; [bilan mesuré V1 et limites](docs/BELLE_RIVE_LOT1_BILAN_V1.md). Aucune publication ni acceptation utilisateur déduite. Un démarrage de reprise dépasse le budget de 5 s ; humain, assistance et plusieurs environnements restent non évalués. Les paragraphes historiques ci-dessous sont conservés.
+
 Portfolio personnel de développement web et de jeux vidéo : démonstrateurs interactifs, conception, études de cas et preuves techniques. Les démonstrateurs personnels ne sont pas des références clients.
 
 Dépôt distant : `git@github.com:MickaelCompper/portfolio-web-jeux.git`.

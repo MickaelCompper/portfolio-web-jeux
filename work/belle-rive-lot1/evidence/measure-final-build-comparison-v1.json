@@ -1,0 +1,7 @@
+{
+  "date": "2026-10-21T13:54:06.774Z",
+  "changed": [
+    "public/session.js"
+  ],
+  "explanation": "Only the browser warning scheduler changed; server measurement code unchanged. Final browser and page-weight tests executed after that change."
+}
