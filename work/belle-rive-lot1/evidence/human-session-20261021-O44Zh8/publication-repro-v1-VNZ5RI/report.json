@@ -1,0 +1,29 @@
+{
+  "at": "2026-10-21T16:26:42.827Z",
+  "version": "0.1.2",
+  "scope": "Agent isolated reproductions, not participant results; original copy not mutated",
+  "snapshotSha256": "5a003438d1c66093a7d09a77dc683e2ef44f0c45d707600c350ea2793b3ea552",
+  "cases": [
+    {
+      "mode": "verification-link-before-publication",
+      "preparationTitle": "Confirmer la publication — Belle-Rive",
+      "operationsBefore": 0,
+      "message": "Opération non trouvée. Aucun succès confirmé. Revenez à la confirmation conservée pour un réessai avec le même identifiant et la même demande, après vérification du brouillon.",
+      "finalTitle": "Publication à vérifier — Belle-Rive",
+      "publicRevision": 1,
+      "operationsAfter": 0,
+      "draftRetained": true
+    },
+    {
+      "mode": "actual-final-publish",
+      "preparationTitle": "Confirmer la publication — Belle-Rive",
+      "operationsBefore": 0,
+      "message": "Révision publiée",
+      "finalTitle": "Révision publiée — Belle-Rive",
+      "publicRevision": 2,
+      "operationsAfter": 1,
+      "draftRetained": false
+    }
+  ],
+  "browser": "156.0.8078.4"
+}

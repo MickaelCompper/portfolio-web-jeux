@@ -1,0 +1,77 @@
+{
+  "at": "2026-10-21T15:07:20.025Z",
+  "version": "0.1.2",
+  "scope": "Agent HTTP checks of current rendered public/login interface; not a new human acceptance result",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/rubrique/informations-pratiques",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/rubrique/agenda",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/rubrique/equipements",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/contenu/IP-01",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/contenu/IP-02",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/contenu/EV-01",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/contenu/EQ-01",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/recherche?q=mediatheque",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    },
+    {
+      "path": "/edition/connexion",
+      "status": 200,
+      "aiMentions": 0,
+      "fictitiousContextRetained": true,
+      "editorLinkRetained": true
+    }
+  ]
+}

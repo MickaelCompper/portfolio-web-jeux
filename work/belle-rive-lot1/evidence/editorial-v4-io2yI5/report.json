@@ -1,0 +1,43 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-22T07:09:31.933Z",
+  "cases": [
+    {
+      "name": "rules: unknown, past event, invalid exception, unchanged, removed field",
+      "pass": true
+    },
+    {
+      "name": "chromium",
+      "version": "156.0.8078.4",
+      "pass": true,
+      "checks": [
+        "auth",
+        "labels",
+        "quality read-only",
+        "comparison",
+        "shared preview escaped",
+        "no public leak",
+        "one publication",
+        "history",
+        "stale refusal"
+      ]
+    },
+    {
+      "name": "firefox",
+      "version": "157.0",
+      "pass": true,
+      "checks": [
+        "auth",
+        "labels",
+        "quality read-only",
+        "comparison",
+        "shared preview escaped",
+        "no public leak",
+        "one publication",
+        "history",
+        "stale refusal"
+      ]
+    }
+  ],
+  "scope": "Automated isolated copies; no human acceptance"
+}

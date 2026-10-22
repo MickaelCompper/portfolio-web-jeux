@@ -1,0 +1,13 @@
+{
+  "status": "GUIDED_QUALITY_COMPARISON_PREVIEW_COMPLETED_NO_PUBLICATION",
+  "versions": ["0.2.0", "0.2.1"],
+  "scope": "Guided designer/user self-reports; no independent or global acceptance",
+  "qualityFeedback": "Unknown physical access and blocking missing exception text distinguished; no difficulty reported",
+  "comparisonFeedback": "Exception addition and morning/afternoon effect understood; public page unchanged; no difficulty reported",
+  "technicalEvidence": "preview-after-human-v1.json",
+  "publicRevision": 1,
+  "publicationOperations": 0,
+  "draftRetained": true,
+  "previousEvidence": "All earlier snapshots, measures and failures retained",
+  "server": "Left running locally for inspection; no push or deployment"
+}

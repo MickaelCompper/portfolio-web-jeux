@@ -23,6 +23,6 @@ document.querySelector('[data-prepare]')?.addEventListener('submit',event=>{if(d
 document.querySelector('[data-focus]')?.focus();
 document.querySelector('[data-publish]')?.addEventListener('submit',async event=>{
  event.preventDefault();const form=event.currentTarget;const button=form.querySelector('button');button.disabled=true;
- try{const response=await fetch(form.action,{method:'POST',body:new URLSearchParams(new FormData(form)),redirect:'follow'});if(!response.ok){const html=await response.text();document.open();document.write(html);document.close();return;}window.location.assign('/edition/operation/'+encodeURIComponent(form.dataset.operation));}
+ try{const response=await fetch(form.action,{method:'POST',body:new URLSearchParams(new FormData(form)),redirect:'follow'});if(!response.ok){const html=await response.text();document.open();document.write(html);document.close();return;}if(response.headers.get('X-Belle-Rive-Operation')!==form.dataset.operation){document.getElementById('uncertain').hidden=false;return;}window.location.assign('/edition/operation/'+encodeURIComponent(form.dataset.operation));}
  catch{document.getElementById('uncertain').hidden=false;}
 });

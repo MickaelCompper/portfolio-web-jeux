@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+import {chromium,firefox} from '@playwright/test';
+import {Store,createApp,random} from '../dist/runtime.bundle.js';
+const root='evidence/human-session-20261021-O44Zh8/';const dir=fs.mkdtempSync(root+'publication-regression-v3-');const source=root+'publication-repro-v1-VNZ5RI/frozen-participant.sqlite';
+const report={at:new Date().toISOString(),version:'0.1.3',scope:'Automated tests on isolated frozen-draft copies, not human acceptance',cases:[]};fs.copyFileSync('dist/build-manifest.json',dir+'/build-before-tests.json');
+for(const [engine,type]of [['chromium',chromium],['firefox',firefox]]){
+ const browser=await type.launch({headless:true});
+ try{for(const mode of ['normal','unexpected-200','mismatched-ack','lost-after-commit']){
+  const name=engine+'-'+mode;fs.copyFileSync(source,dir+'/'+name+'.sqlite');const store=new Store(dir+'/'+name+'.sqlite'),secret=random(),faults={lost:mode==='lost-after-commit'},{app}=createApp(store,secret,{faults});await app.listen({host:'127.0.0.1',port:4317});const context=await browser.newContext({viewport:{width:390,height:900}}),page=await context.newPage();const result={engine,version:browser.version(),mode};
+  try{await page.goto('http://127.0.0.1:4317/edition/connexion');await page.locator('#secret').fill(secret);await page.getByRole('button',{name:'Ouvrir l’édition',exact:true}).click();await page.waitForURL('**/edition');await page.goto('http://127.0.0.1:4317/edition/contenu/IP-01');await page.getByRole('button',{name:'Préparer la publication du brouillon enregistré',exact:true}).click();await page.locator('[data-publication-pending]').waitFor();assert.equal(store.version('IP-01'),1);assert.equal(store.operations().length,0);assert.equal(await page.locator('[data-recovery-help] a').isVisible(),false);result.pendingStateExplicit=true;result.recoveryNotPresentedAsNominalStep=true;await page.screenshot({path:dir+'/'+name+'-confirmation.png',fullPage:true});
+   const op=await page.locator('[data-publish]').getAttribute('data-operation');const formData=await page.locator('[data-publish]').evaluate(form=>Object.fromEntries(new FormData(form)));
+   if(mode==='unexpected-200'||mode==='mismatched-ack')await page.route('**/edition/contenu/IP-01/publier',route=>route.fulfill({status:200,contentType:'text/html',headers:mode==='mismatched-ack'?{'X-Belle-Rive-Operation':'wrong-operation'}:{},body:'<!doctype html><title>OK</title><p>OK</p>'}));
+   await page.getByRole('button',{name:'Publier cette révision',exact:true}).click();
+   if(mode==='normal'){await page.getByRole('heading',{name:'Révision publiée',exact:true}).waitFor();assert.equal(store.version('IP-01'),2);assert.equal(store.operations().length,1);const replay=await context.request.post('http://127.0.0.1:4317/edition/contenu/IP-01/publier',{headers:{origin:'http://127.0.0.1:4317','content-type':'application/x-www-form-urlencoded'},data:new URLSearchParams(formData).toString()});assert.equal(replay.status(),200);assert.equal(replay.headers()['x-belle-rive-operation'],op);assert.equal(store.operations().length,1);assert.equal(store.history('IP-01').length,2);result.successAndReplayBoundToOperation=true;}
+   else{await page.locator('#uncertain:not([hidden])').waitFor();result.noBlindSuccessOnAmbiguousResponse=true;assert.equal(await page.locator('[data-publish] button').isDisabled(),true);assert.equal(store.version('IP-01'),mode==='lost-after-commit'?2:1);await page.locator('#uncertain a').click();await page.getByRole('heading',{name:mode==='lost-after-commit'?'Révision publiée':'Publication à vérifier',exact:true}).waitFor();result.resultCheckedBeforeRetry=true;}
+   result.publicRevision=store.version('IP-01');result.operations=store.operations().length;result.history=store.history('IP-01').length;await page.screenshot({path:dir+'/'+name+'-result.png',fullPage:true});result.status='checks-executed-successfully';
+  }catch(e){result.error=String(e);process.exitCode=1;}finally{await context.close();await app.close();report.cases.push(result);fs.writeFileSync(dir+'/report.json',JSON.stringify(report,null,2));}
+ }}finally{await browser.close();}
+}
+console.log(JSON.stringify({dir,...report},null,2));

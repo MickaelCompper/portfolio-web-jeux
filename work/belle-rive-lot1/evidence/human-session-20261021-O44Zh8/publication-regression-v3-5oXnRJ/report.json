@@ -1,0 +1,31 @@
+{
+  "at": "2026-10-22T07:07:37.033Z",
+  "version": "0.1.3",
+  "scope": "Automated tests on isolated frozen-draft copies, not human acceptance",
+  "cases": [
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "normal",
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/edition/connexion\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/edition/connexion\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "unexpected-200",
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/edition/connexion\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/edition/connexion\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "mismatched-ack",
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/edition/connexion\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/edition/connexion\", waiting until \"load\"\u001b[22m\n"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "lost-after-commit",
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/edition/connexion\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/edition/connexion\", waiting until \"load\"\u001b[22m\n"
+    }
+  ]
+}

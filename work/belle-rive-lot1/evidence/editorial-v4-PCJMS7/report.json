@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-22T07:07:33.388Z",
+  "cases": [
+    {
+      "name": "rules: unknown, past event, invalid exception, unchanged, removed field",
+      "pass": true
+    },
+    {
+      "pass": false,
+      "error": "Error: page.goto: net::ERR_NETWORK_ACCESS_DENIED at http://127.0.0.1:4317/edition/qualite\nCall log:\n\u001b[2m  - navigating to \"http://127.0.0.1:4317/edition/qualite\", waiting until \"load\"\u001b[22m\n"
+    }
+  ],
+  "scope": "Automated isolated copies; no human acceptance"
+}

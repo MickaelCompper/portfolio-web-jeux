@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-21T17:15:46.045Z",
+  "source": "Agent read-only SQLite snapshot; distinct from participant verdict",
+  "publicRevision": 2,
+  "exception": {
+    "date": "2026-11-18",
+    "period": "14:00-17:00",
+    "text": "Fermeture exceptionnelle le 18 novembre après-midi"
+  },
+  "draftExists": false,
+  "history": [
+    {
+      "rev": 1,
+      "published": "Initialisation fictive"
+    },
+    {
+      "rev": 2,
+      "published": "2026-10-21T17:15:01.099Z"
+    }
+  ],
+  "operations": [
+    {
+      "id": "23e6ab89-4119-4611-9c54-9eba42051d2b",
+      "content": "IP-01",
+      "rev": 2,
+      "published": "2026-10-21T17:15:01.099Z"
+    }
+  ],
+  "publicHttp": {
+    "status": 200,
+    "datePresent": true,
+    "textPresent": true,
+    "cacheControl": "no-store"
+  }
+}

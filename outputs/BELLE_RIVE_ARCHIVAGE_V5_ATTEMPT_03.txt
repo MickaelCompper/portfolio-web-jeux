@@ -1,0 +1,7 @@
+{
+  "archive": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\archives\\BELLE_RIVE_RECETTE_CONSOLIDEE_V5.zip",
+  "entries": 873,
+  "bytes": 31092154,
+  "sha256": "5792dc3dec6f76204e0d853c6af2032413a21df1ceaef128a74b3729651c63bc",
+  "verification": "CRC and every entry SHA-256 checked"
+}

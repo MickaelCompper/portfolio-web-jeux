@@ -1,0 +1,24 @@
+{
+  "at": "2026-10-21T16:07:05.206Z",
+  "version": "0.1.2",
+  "source": "Agent read-only SQLite snapshot and public HTTP; distinct from participant report",
+  "publicRevision": 1,
+  "publicException": {
+    "date": "",
+    "period": "",
+    "text": ""
+  },
+  "draft": {
+    "generation": 1,
+    "base": 1,
+    "saved": "2026-10-21T16:05:21.585Z",
+    "exception": {
+      "date": "2026-11-18",
+      "period": "14:00-17:00",
+      "text": ""
+    }
+  },
+  "operations": 0,
+  "publicHttpStatus": 200,
+  "publicExceptionHeadingPresent": false
+}

@@ -1,0 +1,72 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-22T07:24:31.246Z",
+  "budgetMs": 5000,
+  "scope": "Same Windows machine, first invocation of each new full copy; no warmup, cache flush or second-machine claim",
+  "environment": {
+    "node": "v24.22.1",
+    "os": "Windows 11 Pro",
+    "release": "10.0.26200",
+    "cpu": "Intel(R) Core(TM) i9-14900HX",
+    "memory": 68406091776,
+    "power": "not measured",
+    "backgroundLoad": "not controlled; no voluntary load"
+  },
+  "samples": [
+    {
+      "trial": 1,
+      "mode": "bundle",
+      "folder": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\evidence\\measures\\reprise-v4-uGp1vU\\trial-1-bundle\\clean",
+      "fixtureSha256": "9ad1d0f66c9c6463af00180626af414bc9f8d3bdec9a1c3fddf4b48067f0f0fe",
+      "startupMs": 1140.562500000001,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 62.39800000000105,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 2,
+      "mode": "bundle",
+      "folder": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\evidence\\measures\\reprise-v4-uGp1vU\\trial-2-bundle\\clean",
+      "fixtureSha256": "9ad1d0f66c9c6463af00180626af414bc9f8d3bdec9a1c3fddf4b48067f0f0fe",
+      "startupMs": 1041.445599999999,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 30.509000000001834,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 3,
+      "mode": "bundle",
+      "folder": "C:\\Users\\micka\\Documents\\ChatGPT\\portfolio\\work\\belle-rive-lot1\\evidence\\measures\\reprise-v4-uGp1vU\\trial-3-bundle\\clean",
+      "fixtureSha256": "9ad1d0f66c9c6463af00180626af414bc9f8d3bdec9a1c3fddf4b48067f0f0fe",
+      "startupMs": 1023.6434999999983,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 46.394500000002154,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    }
+  ],
+  "correctedWithinBudget": true
+}

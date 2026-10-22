@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-21T16:17:28.172Z",
+  "source": "Agent read-only SQLite snapshot, distinct from participant observation",
+  "publicRevision": 1,
+  "publicException": {
+    "date": "",
+    "period": "",
+    "text": ""
+  },
+  "draft": {
+    "generation": 2,
+    "base": 1,
+    "saved": "2026-10-21T16:10:28.857Z",
+    "exception": "Fermeture exceptionnelle le 18 novembre après-midi"
+  },
+  "history": [
+    {
+      "rev": 1,
+      "published": "Initialisation fictive"
+    }
+  ],
+  "operations": [],
+  "http": [
+    {
+      "path": "/contenu/IP-01",
+      "status": 200,
+      "title": "Venir à l’accueil de la mairie — Belle-Rive",
+      "exceptionDatePresent": false,
+      "exceptionPeriodPresent": true,
+      "exceptionTextPresent": false,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/contenu/IP-02",
+      "status": 200,
+      "title": "Préparer une visite à l’accueil — Belle-Rive",
+      "exceptionDatePresent": false,
+      "exceptionPeriodPresent": false,
+      "exceptionTextPresent": false,
+      "cacheControl": "no-store"
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Les informations utiles à Belle-Rive — Belle-Rive",
+      "exceptionDatePresent": false,
+      "exceptionPeriodPresent": false,
+      "exceptionTextPresent": false,
+      "cacheControl": "no-store"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"at":"2026-10-22T07:26:17.834Z","step":"visite","origin":"http://127.0.0.1:4317","status":"READY","pid":45596}
+{"at":"2026-10-22T07:33:20.736Z","step":"visite","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-22T07:33:53.201Z","step":"visite","origin":"http://127.0.0.1:4317","status":"READY","pid":6668}
+{"at":"2026-10-22T07:45:38.307Z","step":"visite","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}

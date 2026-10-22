@@ -1,0 +1,109 @@
+{
+  "at": "2026-10-21T16:29:00.680Z",
+  "version": "0.1.3",
+  "scope": "Automated tests on isolated frozen-draft copies, not human acceptance",
+  "cases": [
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "normal",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "successAndReplayBoundToOperation": true,
+      "publicRevision": 2,
+      "operations": 1,
+      "history": 2,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "unexpected-200",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 1,
+      "operations": 0,
+      "history": 1,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "mismatched-ack",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 1,
+      "operations": 0,
+      "history": 1,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "chromium",
+      "version": "156.0.8078.4",
+      "mode": "lost-after-commit",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 2,
+      "operations": 1,
+      "history": 2,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "normal",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "successAndReplayBoundToOperation": true,
+      "publicRevision": 2,
+      "operations": 1,
+      "history": 2,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "unexpected-200",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 1,
+      "operations": 0,
+      "history": 1,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "mismatched-ack",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 1,
+      "operations": 0,
+      "history": 1,
+      "status": "checks-executed-successfully"
+    },
+    {
+      "engine": "firefox",
+      "version": "157.0",
+      "mode": "lost-after-commit",
+      "pendingStateExplicit": true,
+      "recoveryNotPresentedAsNominalStep": true,
+      "noBlindSuccessOnAmbiguousResponse": true,
+      "resultCheckedBeforeRetry": true,
+      "publicRevision": 2,
+      "operations": 1,
+      "history": 2,
+      "status": "checks-executed-successfully"
+    }
+  ]
+}

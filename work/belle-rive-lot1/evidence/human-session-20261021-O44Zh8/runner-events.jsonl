@@ -1,0 +1,14 @@
+{"at":"2026-10-21T14:48:26.634Z","step":"visite","origin":"http://127.0.0.1:4317","status":"READY","pid":43708}
+{"at":"2026-10-21T15:01:34.395Z","step":"visite","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-21T15:01:34.648Z","step":"evenement_lieu","origin":"http://127.0.0.1:4317","status":"READY","pid":20672}
+{"at":"2026-10-21T15:06:17.810Z","step":"evenement_lieu","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-21T15:06:55.566Z","step":"evenement_lieu","origin":"http://127.0.0.1:4317","status":"READY","pid":34676}
+{"at":"2026-10-21T15:48:22.575Z","step":"evenement_lieu","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-21T15:48:22.857Z","step":"annulation","origin":"http://127.0.0.1:4317","status":"READY","pid":25904}
+{"at":"2026-10-21T15:54:28.350Z","step":"annulation","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-21T15:54:28.619Z","step":"edition","origin":"http://127.0.0.1:4317","status":"READY","pid":42220}
+{"at":"2026-10-21T16:25:55.082Z","step":"edition","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-21T16:30:50.390Z","step":"edition","origin":"http://127.0.0.1:4317","status":"READY","pid":33316}
+{"at":"2026-10-22T07:06:25.483Z","step":"edition","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}
+{"at":"2026-10-22T07:10:45.751Z","step":"edition","origin":"http://127.0.0.1:4317","status":"READY","pid":17596}
+{"at":"2026-10-22T07:24:13.022Z","step":"edition","origin":"http://127.0.0.1:4317","status":"STOPPED","pid":null}

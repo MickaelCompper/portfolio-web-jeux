@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-22T07:25:56.319Z",
+  "origin": "http://127.0.0.1:4317",
+  "steps": {
+    "visite": "S1"
+  },
+  "status": "PREPARED_NOT_HUMAN_TESTED",
+  "scope": "Guided designer/user self-report; not independent acceptance. No final publication requested.",
+  "fixture": "S1 with incomplete exception draft to inspect quality; public r1 unchanged",
+  "initialSha256": "6f2b27d8ed90a984f08f2524c16437525e2e9ad6f2ec6f1ddf35f6f999b20b04"
+}

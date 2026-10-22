@@ -1,0 +1,54 @@
+{
+  "dir": "evidence/measures/reprise-v4-uGp1vU",
+  "correctedWithinBudget": true,
+  "samples": [
+    {
+      "trial": 1,
+      "mode": "bundle",
+      "startupMs": 1140.562500000001,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 62.39800000000105,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 2,
+      "mode": "bundle",
+      "startupMs": 1041.445599999999,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 30.509000000001834,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    },
+    {
+      "trial": 3,
+      "mode": "bundle",
+      "startupMs": 1023.6434999999983,
+      "withinBudget": true,
+      "httpChecks": "public r2 restored; previous cookie denied; auth; origin/CSRF denied; save/confirm/publish/replay",
+      "exit": 0,
+      "shutdownMs": 46.394500000002154,
+      "cleanStop": true,
+      "integrity": [
+        {
+          "integrity_check": "ok"
+        }
+      ],
+      "finalRevision": 3
+    }
+  ]
+}

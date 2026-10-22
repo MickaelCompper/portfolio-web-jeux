@@ -1,0 +1,25 @@
+{
+  "at": "2026-10-22T07:42:51.870Z",
+  "mode": "read-only SQLite snapshot",
+  "publicRevision": 1,
+  "publicException": {
+    "date": "",
+    "period": "",
+    "text": ""
+  },
+  "draft": {
+    "generation": 4,
+    "base": 1,
+    "exception": {
+      "date": "2026-11-18",
+      "period": "14:00-17:00",
+      "text": "fermeture du 18 novembre de 14 h à 17 h, avec ouverture maintenue de 9 h à 12 h"
+    }
+  },
+  "operations": 0,
+  "history": [
+    {
+      "rev": 1
+    }
+  ]
+}

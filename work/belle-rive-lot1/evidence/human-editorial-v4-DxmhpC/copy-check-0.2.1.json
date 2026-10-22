@@ -1,0 +1,30 @@
+{
+  "version": "0.2.1",
+  "results": [
+    {
+      "url": "/",
+      "status": 200
+    },
+    {
+      "url": "/contenu/IP-01",
+      "status": 200
+    },
+    {
+      "url": "/contenu/IP-02",
+      "status": 200
+    },
+    {
+      "url": "/contenu/EQ-01",
+      "status": 200
+    },
+    {
+      "url": "/contenu/EV-01",
+      "status": 200
+    },
+    {
+      "url": "/rubrique/equipements",
+      "status": 200
+    }
+  ],
+  "scope": "HTML template checks, not human acceptance or startup qualification"
+}
